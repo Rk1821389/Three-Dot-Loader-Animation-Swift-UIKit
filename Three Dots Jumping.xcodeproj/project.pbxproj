@@ -13,6 +13,7 @@
 		AF1749D6299B3AEE00025C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1749D4299B3AEE00025C4F /* Main.storyboard */; };
 		AF1749D8299B3AF000025C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1749D7299B3AF000025C4F /* Assets.xcassets */; };
 		AF1749DB299B3AF000025C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1749D9299B3AF000025C4F /* LaunchScreen.storyboard */; };
+		AF1749E3299B3B1D00025C4F /* ThreeDotLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1749E2299B3B1D00025C4F /* ThreeDotLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF1749D7299B3AF000025C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF1749DA299B3AF000025C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF1749DC299B3AF000025C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1749E2299B3B1D00025C4F /* ThreeDotLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AF1749D7299B3AF000025C4F /* Assets.xcassets */,
 				AF1749D9299B3AF000025C4F /* LaunchScreen.storyboard */,
 				AF1749DC299B3AF000025C4F /* Info.plist */,
+				AF1749E2299B3B1D00025C4F /* ThreeDotLoader.swift */,
 			);
 			path = "Three Dots Jumping";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1749D3299B3AEE00025C4F /* ViewController.swift in Sources */,
+				AF1749E3299B3B1D00025C4F /* ThreeDotLoader.swift in Sources */,
 				AF1749CF299B3AEE00025C4F /* AppDelegate.swift in Sources */,
 				AF1749D1299B3AEE00025C4F /* SceneDelegate.swift in Sources */,
 			);

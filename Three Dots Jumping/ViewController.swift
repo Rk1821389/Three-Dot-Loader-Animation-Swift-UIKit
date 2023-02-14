@@ -11,7 +11,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let loader = ThreeDotLoader()
+        loader.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(loader)
+       
+        NSLayoutConstraint.activate([
+            loader.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            loader.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            loader.widthAnchor.constraint(equalToConstant: 60),
+            loader.heightAnchor.constraint(equalToConstant: 20)
+        ])
+        
+       
+
+        
     }
 
 
